@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  height: 100vh;
+}
+body{
+  height: 100vh;
+  font-size: 14px;
+  background-color: #fefefe;
+}
+.container,
+.container-fluid{
+  background-color: red;
+  height: 600px;
+}
+.container-fluid .row .col-12 ,
+.container-fluid .row .col-md-7,
+.container-fluid .row .col-md-5,
+.container-fluid .row .col-md-6,
+.container-fluid .row .col-md-3,
+.container-fluid .row .col-md-3{
+  border: 1px solid black;
+}
+#hidden{
+  display: none;
+  /* visibility: visible; */
+}
